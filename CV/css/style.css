@@ -1,0 +1,377 @@
+:root {
+     --color-principal: #3498db;
+    --color-fosc: #2c3e50;
+        --color-clar: #ecf0f1;
+    --color-blanc: #ffffff;
+    --color-gris: #95a5a6;
+}
+* {
+    margin: 0;
+    padding: 0;
+}
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+}
+body {
+    color: var(--color-fosc);
+    line-height: 1.6;
+}
+header {
+    background-color: var(--color-principal);
+    color: var(--color-blanc);
+    text-align: center;
+    padding: 40px 20px;
+}
+.foto-perfil {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    border: 5px solid var(--color-blanc);
+    margin: 0 auto 20px auto;
+}
+
+header h1 {
+    font-size: 2em;
+    margin-bottom: 10px;
+}
+
+header p {
+    font-size: 1.2em;
+}
+nav {
+    background-color: var(--color-fosc);
+    padding: 15px;
+    text-align: center;
+}
+nav a {
+    color: var(--color-blanc);
+    text-decoration: none;
+}
+nav a {
+    padding: 10px 15px;
+    display: inline-block;
+    margin: 5px;
+}
+nav a:hover {
+    background-color: var(--color-principal);
+    border-radius: 5px;
+}
+nav a {
+    transition: all 0.3s;
+}
+nav a:hover {
+    transform: translateY(-3px);
+}
+main {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 20px;
+}
+section {
+    margin-bottom: 40px;
+    padding: 20px;
+    background-color: var(--color-blanc);
+}
+section h2 {
+    color: var(--color-principal);
+    font-size: 1.8em;
+    margin-bottom: 20px;
+}
+section h2 {
+    border-bottom: 3px solid var(--color-principal);
+    padding-bottom: 10px;
+    position: relative;
+}
+section h2::after {
+    content: "";
+    position: absolute;
+    bottom: -3px;
+}
+section h2::after {
+    left: 0;
+    width: 60px;
+    height: 3px;
+    background-color: var(--color-fosc);
+}
+.formacio-item {
+    margin-bottom: 30px;
+    padding: 15px;
+}
+.formacio-item {
+    background-color: var(--color-clar);
+    border-radius: 5px;
+}
+.formacio-item h3 {
+    color: var(--color-fosc);
+    margin-bottom: 10px;
+}
+
+.centre {
+    color: var(--color-principal);
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.dates {
+    color: var(--color-gris);
+    font-style: italic;
+    margin-bottom: 10px;
+}
+.formacio-item {
+    position: relative;
+    padding-left: 40px;
+}
+.formacio-item::before {
+    content: "";
+    position: absolute;
+    left: 15px;
+    top: 20px;
+}
+.formacio-item::before {
+    width: 15px;
+    height: 15px;
+    background-color: var(--color-principal);
+    border-radius: 50%;
+    border: 3px solid var(--color-blanc);
+}
+.habilitats-grup {
+    margin-bottom: 20px;
+}
+
+.habilitats-grup h3 {
+    color: var(--color-principal);
+    margin-bottom: 10px;
+}
+.habilitats-grup {
+    margin-bottom: 20px;
+}
+
+.habilitats-grup h3 {
+    color: var(--color-principal);
+    margin-bottom: 10px;
+}
+.habilitats-grup ul {
+    list-style: none;
+}
+.habilitats-grup li {
+    background-color: var(--color-clar);
+    padding: 10px;
+    margin-bottom: 10px;
+}
+.habilitats-grup li {
+    background-color: var(--color-clar);
+    padding: 10px;
+    margin-bottom: 10px;
+}
+.habilitats-grup li {
+    border-left: 4px solid var(--color-principal);
+}
+.habilitats-grup li::before {
+    content: "✓ ";
+    color: var(--color-principal);
+}
+.habilitats-grup li::before {
+    font-weight: bold;
+    margin-right: 10px;
+}
+.habilitats-grup li {
+    transition: all 0.3s;
+}
+
+.habilitats-grup li:hover {
+    transform: translateX(10px);
+}
+.projecte {
+    margin-bottom: 30px;
+    padding: 20px;
+}
+.projecte {
+    background-color: var(--color-clar);
+    border-radius: 5px;
+    border: 1px solid var(--color-gris);
+}
+.projecte h3 {
+    color: var(--color-fosc);
+    margin-bottom: 10px;
+}
+.etiqueta {
+    display: inline-block;
+    background-color: var(--color-principal);
+    color: var(--color-blanc);
+}
+.etiqueta {
+    padding: 5px 10px;
+    border-radius: 3px;
+    font-size: 0.9em;
+    margin-bottom: 5px;
+}
+.tecnologies {
+    color: var(--color-gris);
+    font-size: 0.9em;
+    margin-bottom: 10px;
+}
+.link-projecte {
+    display: inline-block;
+    background-color: var(--color-principal);
+    color: var(--color-blanc);
+}
+.link-projecte {
+    padding: 10px 15px;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+.link-projecte {
+    transition: all 0.3s;
+}
+
+.link-projecte:hover {
+    background-color: var(--color-fosc);
+}
+.link-projecte:hover {
+    transform: scale(1.05);
+}
+.idioma {
+    display: inline-block;
+    width: 100%;
+    padding: 15px;
+}
+.idioma {
+    margin-bottom: 10px;
+    background-color: var(--color-clar);
+    border-radius: 5px;
+    text-align: center;
+}
+.idioma h3 {
+    color: var(--color-principal);
+    margin-bottom: 5px;
+}
+#contacte p {
+    margin-bottom: 10px;
+    padding: 10px;
+}
+#contacte a {
+    color: var(--color-principal);
+    text-decoration: none;
+}
+
+#contacte a:hover {
+    text-decoration: underline;
+}
+footer {
+    background-color: var(--color-fosc);
+    color: var(--color-blanc);
+    text-align: center;
+}
+footer {
+    padding: 20px;
+}
+footer {
+    animation: pulsa 2s infinite;
+}
+
+@keyframes pulsa {
+    0%, 100% {
+        transform: scale(1);
+    }
+    50% {
+        transform: scale(1.02);
+    }
+}
+.foto-perfil {
+    animation: apareix 1s ease-in-out;
+}
+@media (min-width: 768px) {
+    nav a {
+        margin: 0 10px;
+    }
+}
+@media (min-width: 768px) {
+    .habilitats-grup {
+        display: inline-block;
+        width: 48%;
+        margin-right: 2%;
+    }
+}
+.habilitats-grup {
+    vertical-align: top;
+}
+@media (min-width: 768px) {
+    .idioma {
+        width: 30%;
+        margin-right: 3%;
+    }
+}
+@media (min-width: 1024px) {
+    header h1 {
+        font-size: 2.5em;
+    }
+}
+@media (min-width: 1024px) {
+    section h2 {
+        font-size: 2em;
+    }
+}
+@media print {
+    body {
+        background: white;
+        color: black;
+    }
+}
+@media print {
+    header {
+        background: none;
+        color: black;
+        border-bottom: 2px solid black;
+    }
+}
+@media print {
+    nav {
+        display: none;
+    }
+    
+    .foto-perfil {
+        width: 100px;
+        height: 100px;
+        border: 2px solid black;
+    }
+}
+@media print {
+    section {
+        page-break-inside: avoid;
+    }
+}
+@media print {
+    a {
+        color: black;
+    }
+}
+@media print {
+    a::after {
+        content: " (" attr(href) ")";
+    }
+}
+@media print {
+    a::after {
+        font-size: 0.8em;
+    }
+}
+@media print {
+    .link-projecte,
+    .etiqueta {
+        background: none;
+        color: black;
+        border: 1px solid black;
+    }
+}
+@media print {
+    footer {
+        background: none;
+        color: black;
+        border-top: 2px solid black;
+    }
+}
